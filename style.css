@@ -2029,7 +2029,7 @@ justify-content: center;
     }
     .main-body-biccyle {
         height: 332px;
-        width: 390px;
+        width: 690px;
         display: flex;
         justify-content: center;
      
@@ -2041,7 +2041,7 @@ justify-content: center;
     }
     .header-content {
       
-        width: 390px;
+        width: 690px;
        
     }
 	
@@ -2153,7 +2153,7 @@ form{
     display: none;
 }
 .order {
-    width: 390px;
+    width: 690px;
    
     display: flex;
     
@@ -2181,11 +2181,11 @@ form{
 /* Upper bikes part */
 .line-up-bikes {
    
-    width: 390px;
+    width: 690px;
 margin-left: 0;
 }
 .line-up-bike-upper {
-    width: 390px;
+    width: 690px;
  
     margin-left: 0;
     margin-bottom: 15%;
@@ -2301,7 +2301,7 @@ text-align: center;
     gap: 5px;
 }
 .man-riding-wrapper{
-    width: 390px;
+    width: 690px;
 }
 .man-riding-upper{
    
@@ -2324,7 +2324,7 @@ text-align: center;
     gap: 10px;
     display: flex;
     flex-direction: column;
-    width: 390px;
+    width: 690px;
     height: 468px;
 }
 .fully-featured{
@@ -2428,7 +2428,7 @@ width: 329px;
 .join-over-container {
     margin-left: 30px;
     margin-right: 30px;
-    width: 390px;
+    width: 690px;
 }
 .join-over-container .join-over-container-info h2 {
     font-style: normal;
@@ -2480,7 +2480,7 @@ justify-content: center;
 .join-over-container .gallery .gallery-images .img {
     display: grid;
     grid-template-columns: auto;
-    width: 390px;
+    width: 690px;
     height: 371px;
     gap: 5%;
     justify-content: center;
@@ -2501,7 +2501,7 @@ justify-content: center;
 .faq {
    
     margin-top: 8%;
-    width: 339px;
+    width: 639px;
 }
 .footer-content {
     display: flex;
@@ -2519,7 +2519,7 @@ justify-content: center;
     justify-content: start;
     gap: 8px;
     align-items: start;
-    width: 390px;
+    width: 690px;
     margin: 0;
 }
 .payment-methods {
@@ -2548,7 +2548,7 @@ justify-content: center;
 .join-over-container {
     margin-left: 30px;
     margin-right: 30px;
-    width: 390px;
+    width: 690px;
     flex-direction: column;
     display: flex;
 }
