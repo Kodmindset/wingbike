@@ -1,0 +1,584 @@
+@media screen and (max-width: 767px) {
+    .toggle-button{
+        display: flex;
+    }
+    .main_container{
+        height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .header-up-upper-info {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    justify-content: center;
+    }
+    .main-body-biccyle {
+        height: 332px;
+        width: 390px;
+        display: flex;
+        justify-content: center;
+     
+        
+        background-repeat: no-repeat;
+       
+        
+        background-image: url(images/woman_riding_bike_phone.svg);
+    }
+    .header-content {
+      
+        width: 390px;
+       
+    }
+	
+    .logo {
+        font-weight: 400;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.pages{
+    display: none;
+}
+.header-down {
+    width: 100%;
+    display: flex;
+    display: grid;
+    justify-content: center;
+    background: #17181C;
+    align-items: center;
+}
+.group-text{
+    display: none;
+}
+.free-absolutely{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+gap: 55px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.experience-freedom-info {
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 0;
+}
+.experience-freedom-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    align-items: center;
+    font-weight: 700;
+font-size: 32px;
+line-height: 100.5%;
+/* or 32px */
+
+text-align: center;
+    flex-wrap: flex-wrap;
+}
+.Street-legal {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+}
+.experience-freedom {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.para-info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-down .header-info {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+   margin: 5%;
+}
+.rigth-info{
+    
+ gap: 30%;
+}
+.left-info {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.rigth-info .search-icon{
+    
+    background: url(images/search.svg);
+    width: 24px;
+    height: 25px;
+    margin-left: 2%;
+}
+form{
+    display: none;
+}
+.order {
+    width: 390px;
+   
+    display: flex;
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+.order-info {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+/* Upper bikes part */
+.line-up-bikes {
+   
+    width: 390px;
+margin-left: 0;
+}
+.line-up-bike-upper {
+    width: 390px;
+ 
+    margin-left: 0;
+    margin-bottom: 15%;
+}
+.line-up-header {
+   
+    margin-left: 0%;
+    grid-area: 1%;
+}
+.line-up-bike-bottom .freedom-bikes {
+    width: 100%;
+   display: grid;
+    grid-template-columns: 161px 161px;
+    gap: 2%;
+    justify-content: center;
+    margin-left: 6%;
+    margin: 0;
+   
+}
+.line-up{
+    
+}
+.line-up-header {
+    margin-left: 0%;
+    grid-area: 1%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.line-footer-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4%;
+    gap: 4%;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+ .freedom-2-bike-img{
+    width: 161px;
+    height: 95px;
+    
+    background: url(images/bike_phone.svg);
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
+.freedom-2-bike-buttons {
+    
+    gap: 3%;
+}
+.right-sectin {
+   
+    grid-template-columns: 50% 30%;
+    
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.freedom-2-bike-header {
+    display: flex;
+    /* grid-template-columns: 80% 20%; */
+   flex-direction: column;
+     margin: 0;
+   
+}
+.freedom-2-bike-header h2 {
+    display: flex;
+    /* grid-template-columns: 80% 20%; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 2%;
+   
+}
+.stars-review {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.freedom-2-bike-para .price{
+  
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    /* display: grid; */
+    align-items: center;
+    flex-direction: column;
+}
+.fit{
+    font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+}
+.freedom-2-bike-para .price .pirce-from {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.freedom-2-bike-para .price .price-to {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+.freedom-2-bike-para {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.man-riding-wrapper{
+    width: 390px;
+}
+.man-riding-upper{
+   
+    
+  
+        width: 100%;
+        margin-left: 5%;
+  
+}
+.line-up-bike-bottom {
+    width: 100%;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.battery-try-buy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 468px;
+}
+.fully-featured{
+  background: url(images/full-featured_phone.svg);
+  height: 329px;
+width: 329px;
+
+
+}
+.try-before {
+    height: 329px;
+width: 329px;
+    background: url(images/try_before_phone.svg);
+}
+.fully-featured, .try-before {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.why-we-do-fans {
+   
+    margin-top: 40%;
+}
+.why-we-do-fans h2{
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.why-we-do-fans p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.why-we-do-fans .para-arrow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42%;
+}
+.why-we-do-fans .arrow {
+    width: 35px;
+    display: flex;
+    height: 24px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-left: -20%;
+   
+}
+.fully-featured-button, .try-before-button {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.man-riding-video-section-container {
+    width: 390px;
+}
+.main-riding-section {
+   
+    height: 329px;
+    margin-bottom: 4%;
+    background: url(images/man_riding_2.svg);
+    background-repeat: no-repeat;
+}
+.line-footer-item {
+   
+    margin-bottom: 8%;
+}
+.man-riding-upper, .main-riding-section, .testimonal-container, .testimonal-container .wrapper {
+    width: 360px;
+
+}
+.testimonal-container .wrapper {
+   display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+  
+    align-items: center;
+    gap: 2%;
+}
+
+.testimonal-footer-free-shipping .free-shiping-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    height: auto;
+    width: 390px;
+    margin-bottom: 3%;
+
+
+
+}
+.join-over-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 390px;
+}
+.join-over-container .join-over-container-info h2 {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
+.join-over-container .join-over-container-info p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.arrow-section-infor {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.join-over-container .join-over-container-info .para-arrow {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.join-over-container .join-over-container-info .arrow-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.testimonal-footer-free-shipping {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-over-container .gallery .play-camera {
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+.join-over-container .gallery .gallery-images .man-watching1 {
+    width: 296px;
+    height: 371px;
+    background: url(images/gallery1.svg);
+}
+.join-over-container .gallery .gallery-images .img {
+    display: grid;
+    grid-template-columns: auto;
+    width: 390px;
+    height: 371px;
+    gap: 5%;
+    justify-content: center;
+}
+.join-over-container .gallery .gallery-images .man-watching2 {
+    background: url(images/man_wathchin_img2.svg);
+    display: none;
+}
+.join-over-container .gallery .gallery-images .man-riding-bike {
+    background: url(images/man_riding_img.svg);
+    display: none;
+}
+.join-over-container .gallery .gallery-images {
+     height: 371px;
+    justify-content: center;
+}
+
+.faq {
+   
+    margin-top: 8%;
+    width: 339px;
+}
+.footer-content {
+    display: flex;
+    width: 100%;
+    grid-template-rows: 350px 261px 222px 216px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 85px;
+}
+.footer-content {
+    display: flex;
+    width: 100%;
+    grid-template-rows: 350px 261px 222px 216px;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    align-items: start;
+    width: 390px;
+    margin: 0;
+}
+.payment-methods {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join-over-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 390px;
+    flex-direction: column;
+    display: flex;
+}
+
+.join-over-{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonal-container .testimonal-section {
+    margin: 0;
+}
+.payment-icon {
+    display: grid;
+    width: 200px;
+   
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 34px;
+    margin-right: 0;
+}
+.line-footer-item {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 4%;
+    gap: 10%;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+}
