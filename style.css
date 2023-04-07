@@ -3,7 +3,7 @@
 body{
     font-family: sans-serif;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -17,19 +17,13 @@ body{
 
 
 
-.header{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    
-    
-}
+
 .header-content{
     
 }
 .header{
     width: 100%;
-    height: 100%;
+   
     display: flex;
     flex-direction: column;
     
@@ -53,9 +47,7 @@ body{
 .free-absolutely{
     display: none;
 }
-.header-up-upper-info{
-   
-}
+
 .header-down{
   
     width: 100%;
@@ -244,6 +236,8 @@ height: 586px;
   }
   #woman-rinding-img{
     position: absolute;
+    max-width: 100%;
+    width: 100%;
   }
   .freedom-2-bike-text-group{
     display: grid;
@@ -517,6 +511,7 @@ background-color: none;
 .line-up-bike-upper{
     width: 100%;
     display: grid;
+    padding: 5%;
     
 }
 .right-sectin{
@@ -525,10 +520,10 @@ background-color: none;
     align-items: center;
     align-self: center;
     justify-self: end;
-    margin-right: -25%;
+   
 }
 .left-section{
-    margin-left: -16%;
+    
 }
 .freedom-2-bike-buttons{
     display: grid;
@@ -602,16 +597,20 @@ background: #040a09;
 .line-up-bike-bottom{
     width: 100%;
     display: grid;
+    padding: 10%;
    
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
 }
 .line-up-bike-bottom .freedom-bikes{
     width: 100%;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5%;
+    gap: 2%;
     justify-content: center;
     margin-left: 0;
+    
 }
 .freedom-2-bike-img{
     height: 197px;
@@ -622,6 +621,12 @@ width: 333px;
 }
 .freedom-bikes{
     width: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-bottom: 5%;
+    padding: 5%;
 }
 .freedom-2-bike-header{
     display: grid;
@@ -647,15 +652,16 @@ margin-bottom: 5%;
 .line-footer{
     width: 100%;
     background-color: #040a09;
-    margin-bottom: 10px;
+    margin-bottom: 5%
 }
 .line-footer-item{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 4%;
+   
     gap: 4%;
     margin-right: 17%;
     margin-left: 17%;
+    padding: 2%;
 }
 .line-footer-item .good-looks .icons{
     display: grid;
@@ -680,25 +686,24 @@ margin-right: 4%;
 }
 .man-riding-video-section-container{
     width: 100%;
-    display: grid;
-    width: 100%;
-    display: grid;
+    display: flex;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-
-    justify-content: center;
-    padding: 0;
+   
+flex-direction: column;
+   
+    padding: 10%;
     left: 0;
     right: 0;
+    margin-top: -10%;
 }
 .man-riding-wrapper{
     width: 100%;
     display: grid;
-    width: 100%;
+  
     justify-content: center;
-    align-items: center;
+   
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -707,6 +712,7 @@ margin-right: 4%;
    display: grid;
    justify-content: center;
    margin: 10%;
+   position: absolute;
 }
 .video-riding:hover{
     visibility: visible;
@@ -717,20 +723,23 @@ margin-right: 4%;
    
 }
 .main-riding-section{
-   
+   display: flex;
  
-    height: 587px;
-width: 1431px;
+width: 100%;
 justify-content: center;
-align-items: center;
 margin-bottom: 4%;
+position: relative;
 
-    background:url(images/man_riding_video.svg)
+    
+}
+#man-riding-video-img{
+    position: absolute;
+    width: 100%;
 }
 .man-riding-upper{
-   
+   display: flex;
  height: 100%;
-width: 1431px;
+width: 100%;
 justify-content: center;
 align-items: center;
 
@@ -769,8 +778,11 @@ align-items: center;
     width: 48px;
     margin-left: 97px;
     margin-right: 97px;
-    display: grid;
+    display: flex;
     margin-top: 5%;
+    margin-right: 80%;
+   
+    
    
 }
 
@@ -786,6 +798,7 @@ align-items: center;
     font-size: 64px;
     color: white;
     cursor: pointer;
+    position: absolute;
 }
 .wing-logo:hover{
     visibility: visible;
@@ -794,43 +807,62 @@ align-items: center;
     cursor: pointer;
     color: #D9D9D9;
 }
-.battery-try-buy{
-    display: grid;
-    grid-template-columns: 591px 797px;
-    gap: 48px;
-    height: 468px;
+.battery-try-buy {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+  
+justify-content: center;
+    
+    
+    margin-top: 35%;
+    
+    flex-direction: row;
+    gap: 8.3%;
+    width: 100%;
 }
 .fully-featured, .try-before{
-    background: #040a09;
+    
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+       
 }
 .fully-featured{
-display: flex;
-flex-direction: row;
-    background: url(images/full-featured.svg);
+    
+   background: url(images/full-featured.svg);
+   background-repeat:no-repeat ;
+   max-width: 100%;
+   background-size: cover;
 }
 .try-before{
-    display: flex;
-flex-direction: row;
-    background: url(images/try_before.svg);
+    
+   background: url(images/try_before.svg);
+   background-repeat:no-repeat ;
+   max-width: 100%;
 }
+/* #fully-featured-img, #try-before-img{
+   position: relative;
+   height: 468px;
+} */
+
 .fully-featured-button, .try-before-button {
     display: flex;
     justify-content: end;
-    display: flex;
-    align-items: flex-end;
-    margin-left: 10%;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    margin-left: 23%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-top: 23%;
+    padding: 5%;
+   
   
 }
 .fully-featured-text, .try-before-text{
    
-    margin-left: 5%;
-  
-    margin-top: 5%;
+    margin: 5%;
     
-  
+ 
 }
 .fully-featured-text h2, .try-before h2{
    
@@ -851,7 +883,7 @@ line-height: 50px;
 }
 .fully-featured-button .button, .try-before-button .button {
     display: flex;
-    width: 139px;
+    width: 200px;
     height: 42px;
     background: #2E7564;
     border-radius: 26px;
@@ -879,10 +911,12 @@ background: url(images/why_we_do_arrow.svg);
     display: flex;
     flex-direction: column;
     margin-top: 55px;
+    align-self: start;
+    width: 100%;
 }
 .why-we-do-fans h2{
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 700;
+    font-size: 42px;
     line-height: 54px;
 }
 .why-we-do-fans p{
@@ -893,7 +927,7 @@ background: url(images/why_we_do_arrow.svg);
 .testimonal-container{
     display: grid;
     margin-top: 71px;
-    width: 1431px;
+    width: 100%;
     justify-content: center;
 align-items: center;
 display: grid;
@@ -903,19 +937,25 @@ display: grid;
 }
 .testimonal-container .wrapper{
     width: 100%;
-display: grid;
-justify-content: center;
+
 align-items: center;
-display: grid;
+display: flex;
 margin-right: 0;
 margin-left: 0;
 margin-bottom: 5%;
-   
-grid-template-columns: repeat(3, 1fr);
+   flex-direction: column;
+
 justify-content: center;
 gap: 30;
 align-items: center;  
     
+}
+.testimonal-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+gap: 5%;
+align-items: center;  
 }
 .testimonal-container .testimonal-section{
     
@@ -991,6 +1031,8 @@ align-items: center;
     height: 243px;
     width: 100%;
     background: #040a09;
+    display: flex;
+    align-items: center;
 }
 .testimonal-footer-free-shipping .car-icon{
     display: grid;
@@ -1018,6 +1060,8 @@ color: #FFFFFF;
     color: #fff;
     height: 64px;
     width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 
 
@@ -1027,7 +1071,7 @@ color: #FFFFFF;
    
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+   
 
 
 
@@ -1127,7 +1171,7 @@ color: #FFFFFF;
     display: flex;
 
 }
-.join-over-container .gallery .gallery-images .man-watching1{
+/* .join-over-container .gallery .gallery-images .man-watching1{
    
     background: url(images/man_wathchin_img.svg);
    
@@ -1144,7 +1188,7 @@ color: #FFFFFF;
     background: url(images/man_riding_img.svg);
    
 
-}
+} */
 .join-over-container .gallery .gallery-images .img{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
@@ -1177,7 +1221,8 @@ label{
  
 }
 .faq{
-    width: 1188px;
+    margin-top: 8%;
+    width: 100%;
 }
 .join-over-container .faq-table-col1{
     display: grid;
@@ -1268,762 +1313,97 @@ label{
 }
 
  @media all and (max-width: 1366px){
+    
     .header-down .header-info {
-        display: grid;
-        margin-left: 100px;
-        margin-right: 100px;
        
-    }
-    /* .line-up-bike-bottom .freedom-bikes {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
         gap: 10%;
-        justify-content: center;
-        margin-left: 6%;
-    } */
-    .line-up-header {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 50% 45%;
- }
- .line-up-bike-bottom {
-    width: 100%;
-    display: grid;
-    margin-left: 2%;
-}
-.freedom-2-bike-text-group{
-    display: grid;
-    width: 100%;
-}
-.battery-try-buy{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 48px;
-    height: 468px;
-}
-.fully-featured-text, .try-before-text {
-    margin-left: 15%;
-    
-}
-.why-we-do-fans {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 55px;
-    margin: 5%;
-}
-.testimonal-container {
-   
-}
-.testimonal-section{
-    margin-left: 5%;
-}
-.testimonal-section .main-container{
-    width: 100%;
-display: grid;
-justify-content: center;
-align-items: center;
-display: grid;
-    margin-top: 71px;
-    margin: 5%;
-    width: 100%;
-    margin-left: 5%;
-    height: 504px;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 30;
-    align-items: center;
-}
-.testimonal-container .wrapper {
-   
-    width: 1331px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 30;
-    align-items: center;
- }
- .man-riding-upper, .main-riding-section, .testimonal-container, .testimonal-container .wrapper {
- 
-    width: 1200px;
-   
-}
-.why-we-do-fans {
-   
-    margin: 0;
-    margin-top: 5%;
-}
-.testimonal-container .wrapper {
-    width: 1200px;
-    display: grid;
-   
-    
-    margin-right: 0;
-    margin-left: 0;
-   
-    
-    align-items: center;
-}
-.testimonal-container .testimonal-section {
-   
-    margin-left: 0;
-   
-}
-.why-we-do-fans .para-arrow {
-   
-    gap: 31%;
-}
-.line-up-bike-bottom .freedom-bikes {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1%;
-    justify-content: center;
-    margin-left: 0;
-}
-
-.line-up-bikes {
-    
-    display: grid;
-    width: 1200px;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
-   
-}
-.line-up-bike-bottom {
-    width: 100%;
-    display: grid;
-    margin: 0;
-}
-.line-up-bike-upper {
-    width: 1200px;
-    display: grid;
-}
-
-.line-up-header {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 4%;
-}
-.right-sectin {
-   
-    margin-right: 0;
-}
-.left-section {
-    margin-left: 0;
-   
-}
-.faq {
-    width: 800px;
-}
-}
-
-@media screen and (max-width: 767px) {
-    .toggle-button{
-        display: flex;
-    }
-    .main_container{
-        height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
-    .header-up-upper-info {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 30px;
-        margin-right: 30px;
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-    justify-content: center;
-    }
-    .main-body-biccyle {
-        height: 332px;
-        width: 390px;
-        display: flex;
-        justify-content: center;
-     
-        
-        background-repeat: no-repeat;
        
-        
-        background-image: url(images/woman_riding_bike_phone.svg);
     }
-    .header-content {
+    .line-footer-item {
       
-        width: 390px;
-       
+        gap: 4%;
+        margin-right: 5%;
+        margin-left: 5%;
+        
     }
-	
-    .logo {
-        font-weight: 400;
-        font-size: 32px;
-        color: white;
+    .man-riding-video-section-container {
+       
+        padding: 0;
+        
+    }
+    .line-footer {
+       
+        margin-bottom: 15%;
+    }
+    .freedom-bikes {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2%;
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        gap: 8%;
+        justify-content: center;
+        margin-bottom: 5%;
+        padding: 5;
+    }
+    .freedom-2-bike-img {
+        height: 160px;
+        width: 100%;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
         cursor: pointer;
-        display: flex;
+    }
+    .line-up-bike-bottom {
+        width: 100%;
+        display: grid;
+        padding: 20%;
         justify-content: center;
         align-items: center;
-}
-.pages{
-    display: none;
-}
-.header-down {
-    width: 100%;
-    display: flex;
-    display: grid;
-    justify-content: center;
-    background: #17181C;
-    align-items: center;
-}
-.group-text{
-    display: none;
-}
-.free-absolutely{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-font-size: 12px;
-line-height: 15px;
-gap: 55px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-.experience-freedom-info {
-    display: grid;
-    margin-top: 50px;
-    justify-content: center;
-    margin-left: 0;
-}
-.experience-freedom-header {
-    font-family: 'Poppins';
-    font-style: normal;
-    align-items: center;
-    font-weight: 700;
-font-size: 32px;
-line-height: 100.5%;
-/* or 32px */
-
-text-align: center;
-    flex-wrap: flex-wrap;
-}
-.Street-legal {
-    display: flex;
-    margin-bottom: 30px;
-    justify-content: center;
-    font-weight: 700;
-font-size: 12px;
-line-height: 18px;
-text-align: center;
-}
-.experience-freedom {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.para-info {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.header-down .header-info {
-    display: grid;
-    margin-left: 30px;
-    margin-right: 30px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10%;
-   margin: 5%;
-}
-.rigth-info{
-    
- gap: 30%;
-}
-.left-info {
-    display: grid;
-    grid-template-columns: 10% 90%;
-    gap: 50%;
-    justify-content: center;
-    align-items: center;
-}
-.rigth-info .search-icon{
-    
-    background: url(images/search.svg);
-    width: 24px;
-    height: 25px;
-    margin-left: 2%;
-}
-form{
-    display: none;
-}
-.order {
-    width: 390px;
-   
-    display: flex;
-    
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 13px;
-    letter-spacing: 0em;
-    text-align: center;
-    
-    justify-content: center;
-    align-items: center;
-}
-.order-info {
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 17px;
-    margin-bottom: 17px;
-    gap: 5%;
-    justify-content: center;
-    align-items: center;
-}
-/* Upper bikes part */
-.line-up-bikes {
-   
-    width: 390px;
-margin-left: 0;
-}
-.line-up-bike-upper {
-    width: 390px;
- 
-    margin-left: 0;
-    margin-bottom: 15%;
-}
-.line-up-header {
-   
-    margin-left: 0%;
-    grid-area: 1%;
-}
-.line-up-bike-bottom .freedom-bikes {
-    width: 100%;
-   display: grid;
-    grid-template-columns: 161px 161px;
-    gap: 2%;
-    justify-content: center;
-    margin-left: 6%;
-    margin: 0;
-   
-}
-.line-up{
-    
-}
-.line-up-header {
-    margin-left: 0%;
-    grid-area: 1%;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-}
-.line-footer-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 4%;
-    gap: 4%;
-    margin-right: 17%;
-    margin-left: 17%;
-}
- .freedom-2-bike-img{
-    width: 161px;
-    height: 95px;
-    
-    background: url(images/bike_phone.svg);
-    background-repeat: no-repeat;
-    margin-left: 0;
-}
-.freedom-2-bike-buttons {
-    
-    gap: 3%;
-}
-.right-sectin {
-   
-    grid-template-columns: 50% 30%;
-    
-    margin-right: 0;
-    display: flex;
-    flex-direction: column;
-}
-.freedom-2-bike-header {
-    display: flex;
-    /* grid-template-columns: 80% 20%; */
-   flex-direction: column;
-     margin: 0;
-   
-}
-.freedom-2-bike-header h2 {
-    display: flex;
-    /* grid-template-columns: 80% 20%; */
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin-right: 2%;
-   
-}
-.stars-review {
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 15%;
-}
-.freedom-2-bike-para .price{
-  
-    display: flex;
-    gap: 2%;
-    justify-content: center;
-    /* display: grid; */
-    align-items: center;
-    flex-direction: column;
-}
-.fit{
-    font-weight: 400;
-font-size: 11px;
-line-height: 16px;
-text-align: center;
-}
-.freedom-2-bike-para .price .pirce-from {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-}
-.freedom-2-bike-para .price .price-to {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-}
-.freedom-2-bike-para {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.man-riding-wrapper{
-    width: 390px;
-}
-.man-riding-upper{
-   
-    
-  
-        width: 100%;
-        margin-left: 5%;
-  
-}
-.line-up-bike-bottom {
-    width: 100%;
-    display: grid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.battery-try-buy {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 390px;
-    height: 468px;
-}
-.fully-featured{
-  background: url(images/full-featured_phone.svg);
-  height: 329px;
-width: 329px;
-
-
-}
-.try-before {
-    height: 329px;
-width: 329px;
-    background: url(images/try_before_phone.svg);
-}
-.fully-featured, .try-before {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10%;
-}
-.why-we-do-fans {
-   
-    margin-top: 40%;
-}
-.why-we-do-fans h2{
-   
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
-.why-we-do-fans p {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-}
-.why-we-do-fans .para-arrow {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 42%;
-}
-.why-we-do-fans .arrow {
-    width: 35px;
-    display: flex;
-    height: 24px;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    margin-left: -20%;
-   
-}
-.fully-featured-button, .try-before-button {
-    display: flex;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 20%;
-    margin-bottom: 10%;
-}
-.man-riding-video-section-container {
-    width: 390px;
-}
-.main-riding-section {
-   
-    height: 329px;
-    margin-bottom: 4%;
-    background: url(images/man_riding_2.svg);
-    background-repeat: no-repeat;
-}
-.line-footer-item {
-   
-    margin-bottom: 8%;
-}
-.man-riding-upper, .main-riding-section, .testimonal-container, .testimonal-container .wrapper {
-    width: 360px;
-
-}
-.testimonal-container .wrapper {
-   display: grid;
-    grid-template-columns: none;
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-  
-    align-items: center;
-    gap: 2%;
-}
-
-.testimonal-footer-free-shipping .free-shiping-icons{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    color: #fff;
-    height: auto;
-    width: 390px;
-    margin-bottom: 3%;
-
-
-
-}
-.join-over-container {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 390px;
-}
-.join-over-container .join-over-container-info h2 {
-    font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-}
-.join-over-container .join-over-container-info p {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-}
-.arrow-section-infor {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-}
-.join-over-container .join-over-container-info .para-arrow {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-
-}
-.join-over-container .join-over-container-info .arrow-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-}
-.testimonal-footer-free-shipping {
-    margin-top: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.join-over-container .gallery .play-camera {
-    display: flex;
-    gap: 2%;
-    margin-top: 2%;
-    justify-content: center;
-    
-}
-.join-over-container .gallery .gallery-images .man-watching1 {
-    width: 296px;
-    height: 371px;
-    background: url(images/gallery1.svg);
-}
-.join-over-container .gallery .gallery-images .img {
-    display: grid;
-    grid-template-columns: auto;
-    width: 390px;
-    height: 371px;
-    gap: 5%;
-    justify-content: center;
-}
-.join-over-container .gallery .gallery-images .man-watching2 {
-    background: url(images/man_wathchin_img2.svg);
-    display: none;
-}
-.join-over-container .gallery .gallery-images .man-riding-bike {
-    background: url(images/man_riding_img.svg);
-    display: none;
-}
-.join-over-container .gallery .gallery-images {
-     height: 371px;
-    justify-content: center;
-}
-
-.faq {
-   
-    margin-top: 8%;
-    width: 339px;
-}
-.footer-content {
-    display: flex;
-    width: 100%;
-    grid-template-rows: 350px 261px 222px 216px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 85px;
-}
-.footer-content {
-    display: flex;
-    width: 100%;
-    grid-template-rows: 350px 261px 222px 216px;
-    flex-direction: column;
-    justify-content: start;
-    gap: 8px;
-    align-items: start;
-    width: 390px;
-    margin: 0;
-}
-.payment-methods {
-    display: grid;
-    width: 100%;
-    justify-items: center;
-    justify-content: center;
-}
-.main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
-}
-.header {
-    width: 100%;
-    height: 110px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.join-over-container {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 390px;
-    flex-direction: column;
-    display: flex;
-}
-
-.join-over-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.main-body {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.testimonal-container .testimonal-section {
-    margin: 0;
-}
-.payment-icon {
-    display: grid;
-    width: 200px;
-   
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    margin-bottom: 34px;
-    margin-right: 0;
-}
-.line-footer-item {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    margin: 4%;
-    gap: 10%;
-    margin-right: 17%;
-    margin-left: 17%;
-}
-
-}
-@media screen and (max-width: 841px) {
+        margin-top: -8%;
+       
+        margin-bottom: 8%;
+    }
+    .line-up{
+        
+    }
+    .man-riding-wrapper {
+       padding: 5%;
+    }
+    .testimonal-footer-free-shipping {
+      padding: 5%;
+    }
+    .testimonal-footer-free-shipping {
+        padding: 5%;
+    }
+    .join-over-{
+        padding: 5%; 
+    }
+    .join-over-container {
+       
+        margin: 0;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .toggle-button{
         display: flex;
     }
     .main_container{
         height: 100%;
     width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    }
+    .header {
+    /* width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    }
+    align-items: center; */
+}
     .header-up-upper-info {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -2078,6 +1458,14 @@ position: absolute;
 }
 .group-text{
     display: none;
+}
+.freedom-bikes {
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3%;
+    padding: 15%;
+    margin-top: -15%;
 }
 .free-absolutely{
     display: flex;
@@ -2215,6 +1603,587 @@ margin-left: 0;
     margin-left: 0%;
     grid-area: 1%;
 }
+
+.line-up-header {
+    margin-left: 0%;
+    grid-area: 1%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+ .freedom-2-bike-img{
+    width: 161px;
+    height: 95px;
+    
+    background: url(images/bike_phone.svg);
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
+.freedom-2-bike-buttons {
+    
+    gap: 3%;
+}
+.right-sectin {
+   
+    grid-template-columns: 50% 30%;
+    
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.freedom-2-bike-header {
+    display: flex;
+    /* grid-template-columns: 80% 20%; */
+   flex-direction: column;
+     margin: 0;
+   
+}
+.freedom-2-bike-header h2 {
+    display: flex;
+    /* grid-template-columns: 80% 20%; */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 2%;
+   
+}
+.stars-review {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.freedom-2-bike-para .price{
+  
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    /* display: grid; */
+    align-items: center;
+    flex-direction: column;
+}
+.fit{
+    font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+text-align: center;
+}
+.freedom-2-bike-para .price .pirce-from {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.freedom-2-bike-para .price .price-to {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
+.freedom-2-bike-para {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.man-riding-upper{
+   
+    
+  
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+
+  
+}
+.line-up-bike-bottom {
+    width: 100%;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.battery-try-buy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+.fully-featured{
+ 
+
+  height: 100%;
+width: 100%;
+}
+#fully-featured-img, #try-before-img{
+  
+    width: 630px;
+}
+.try-before {
+    height: 100%;
+width: 100%;
+   
+    margin-top: 5%;
+  
+    
+}
+.fully-featured, .try-before {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+   
+}
+
+
+
+.man-riding-video-section-container {
+  
+}
+
+.main-riding-section {
+   width: 100%;
+    height: 100%;
+    margin-bottom: 20%;
+   
+    background-repeat: no-repeat;
+}
+#man-riding-video-img{
+    max-width: 100%;
+   
+}
+
+.testimonal-card {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+
+.testimonal-footer-free-shipping .free-shiping-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+
+
+
+}
+.join-over-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+   
+    flex-direction: column;
+    display: flex;
+}
+
+.join-over-container .join-over-container-info h2 {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
+.join-over-container .join-over-container-info p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.arrow-section-infor {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.join-over-container .join-over-container-info .para-arrow {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.join-over-container .join-over-container-info .arrow-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.testimonal-footer-free-shipping {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-over-container .gallery .play-camera {
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+.join-over-container .gallery .gallery-images .man-watching1 {
+    width: 100%;
+    height: 100%;
+    background: none
+}
+.join-over-container .gallery .gallery-images .img {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+    justify-content: center;
+}
+#slideshow_image{
+    width: 100%;
+}
+#slideshow_image:nth-child(2),#slideshow_image:nth-child(3){
+   display: none;
+}
+.join-over-container .gallery .gallery-images .man-watching2 {
+    background: url(images/man_wathchin_img2.svg);
+    display: none;
+}
+.join-over-container .gallery .gallery-images .man-riding-bike {
+    background: url(images/man_riding_img.svg);
+    display: none;
+}
+.join-over-container .gallery .gallery-images {
+     height: 100%;
+    justify-content: center;
+}
+
+.faq {
+   
+    margin-top: 8%;
+    width: 100%;
+}
+.join-over-container .faq-container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 45%;
+    grid-template-rows: none;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10%;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.payment-methods {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+
+.join-over-{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonal-container .testimonal-section {
+    margin: 0;
+}
+.payment-icon {
+    display: grid;
+    width: 200px;
+   
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 34px;
+    margin-right: 0;
+}
+
+.line-footer {
+    width: 100%;
+    background-color: #040a09;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.line-footer-item {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: none;
+    margin-top: 6%;
+    margin-bottom: 16%;
+    gap: 10%;
+}
+.line-footer-item .good-looks {
+    display: grid;
+}
+.line-footer-item .good-looks .icons {
+    display: grid;
+    height: 24px;
+    width: 124.75px;
+    margin-top: 9px;
+    align-self: center;
+    justify-self: end;
+    margin-right: 0%;
+    background: url(images/wired.svg);
+}
+.line-footer-item .good-looks {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.deliver-from {
+   
+    margin-top: 5%;
+}
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width:767){
+    .toggle-button{
+        display: flex;
+    }
+    .main_container{
+        height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .header-up-upper-info {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    justify-content: center;
+    }
+    .main-body-biccyle {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+     
+        
+        background-repeat: no-repeat;
+       
+        
+        background-image: none
+    }
+    .woman-rinding-img{
+position: absolute;
+    }
+    .header-content {
+      
+        width: 100%;
+       
+    }
+	
+    .logo {
+        font-weight: 400;
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.pages{
+    display: none;
+}
+.header-down {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    justify-content: center;
+    background: #17181C;
+    align-items: center;
+}
+.group-text{
+    display: none;
+}
+.free-absolutely{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+gap: 55px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.freedom-bikes {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.experience-freedom-info {
+    display: grid;
+    margin-top: 35%;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.experience-freedom-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    align-items: center;
+    font-weight: 700;
+font-size: 32px;
+line-height: 100.5%;
+/* or 32px */
+
+text-align: center;
+    flex-wrap: flex-wrap;
+}
+.Street-legal {
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
+    font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+}
+.experience-freedom {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+}
+.para-info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-down .header-info {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+   margin: 5%;
+   width: 100%;
+}
+.learn {
+   
+    width: 110px;
+    height: 30px;
+    
+}
+.rigth-info{
+    
+ gap: 30%;
+}
+.left-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.rigth-info .search-icon{
+    
+    background: url(images/search.svg);
+    width: 24px;
+    height: 25px;
+    margin-left: 2%;
+}
+form{
+    display: none;
+}
+.order {
+    width: 100%;
+   
+    display: flex;
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+.order-info {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+}
+/* Upper bikes part */
+.line-up-bikes {
+   
+    width: 100%;
+margin-left: 0;
+}
+.line-up-bike-upper {
+    width: 100%;
+ 
+    margin-left: 0;
+    margin-bottom: 15%;
+}
+.line-up-header {
+   
+    margin-left: 0%;
+    grid-area: 1%;
+}
 .line-up-bike-bottom .freedom-bikes {
     width: 100%;
    display: grid;
@@ -2223,6 +2192,10 @@ margin-left: 0;
     justify-content: center;
     margin-left: 6%;
     margin: 0;
+   
+}
+.line-up-bike-bottom .freedom-bikes:hover{
+   cursor: pointer;
    
 }
 
@@ -2244,6 +2217,11 @@ margin-left: 0;
     background: url(images/bike_phone.svg);
     background-repeat: no-repeat;
     margin-left: 0;
+    cursor: pointer;
+}
+ .freedom-2-bike-img:hover{
+    cursor: pointer;
+
 }
 .freedom-2-bike-buttons {
     
@@ -2554,12 +2532,13 @@ justify-content: center;
 }
 
 .footer-content {
-    display: grid;
+    display: flex;
     width: 100%;
     grid-template-columns: 50% 45%;
     grid-template-rows: none;
     flex-direction: column;
     justify-content: start;
+    flex-direction: column;
     gap: 10%;
     align-items: center;
     margin: 0;
@@ -2656,3 +2635,4 @@ justify-content: center;
 }
 
 }
+
